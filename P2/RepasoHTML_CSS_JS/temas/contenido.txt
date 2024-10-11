@@ -1,4 +1,21 @@
-HTML
-Es el lenguaje estándar utilizado para crear y estructurar páginas web.
-No es un lenguaje de programación, si no un lenguaje marcado
-Su principal función es organizar y definir el contenido de una página web
+Estos son los temas de HTML Repaso
+
+** HTML **
+  1.- HTML ¿Que es y como funciona?
+  2.- Etiquetas
+  3.- Estructura basica de una pagina web
+  4.- Textos
+  5.- Listas
+  6.- Imagenes
+  8.- Tablas
+  9.- Formularios
+  10.- Enlaces o Hipervinculos (links)
+  11.- Contenido embedido
+
+** CSS **
+   12.- CSS 
+
+** JS **
+   13.- JavaScript
+ 
+
