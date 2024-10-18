@@ -4,6 +4,7 @@ body {
     padding: 0;
     background-image: url('images/fondo.png');
     background-size: cover;
+    background-repeat: no-repeat;
     width: 400px; /* ancho de la caja */
     margin: 40px auto; /* centrar horizontalmente */
     padding: 20px;
