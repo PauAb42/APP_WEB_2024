@@ -196,6 +196,325 @@ body{
     text-decoration: none;
     font-size: 5vmin;
 }
+
+/* Sección de Mis Trabajos */
+/* Estilos para la sección "Mis Trabajos" */
+.contenedor-trabajos {
+    text-decoration: none; /* Quitar subrayado */
+    color: inherit;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 3rem;
+}
+
+.contenedor-trabajos .trabajo a:hover {
+
+    color: #5db8f8; /* Cambiar color al pasar el mouse */
+
+}
+
+.trabajo {
+    background-color: #f0f0f0;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    width: 30%;
+    margin: 1rem;
+    text-align: center;
+    transition: transform 0.2s;
+}
+
+.trabajo img {
+    width: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.trabajo h4 {
+    font-size: 2vmin;
+    margin: 0.5rem 0;
+}
+
+.trabajo p {
+    font-size: 1.5vmin;
+    padding: 0 1rem;
+    color: #333;
+}
+
+.trabajo:hover {
+    transform: scale(1.05);
+    cursor: pointer;
+}
+
+/* Aqui se comienza el diseno de proyectos */
+/* Sección de Proyectos */
+#pr-proyectos {
+    padding: 50px 20px;
+    text-align: center;
+    background-color: #f4f4f9;
+}
+
+#pr-proyectos h2 {
+    font-size: 2.5em;
+    color: black;
+    margin-bottom: 30px;
+}
+
+/* Contenedor de las tarjetas de proyectos */
+.pr-proyectos-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+/* Estilo de cada tarjeta */
+.pro-tarjeta {
+    background-color: #ffffff;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    padding: 20px;
+    text-align: left;
+}
+
+.pro-tarjeta:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+}
+
+/* Imagen del proyecto */
+.pro-imagen {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+
+/* Título del proyecto */
+.pro-tarjeta h3 {
+    font-size: 1.6em;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+/* Descripción del proyecto */
+.pro-tarjeta p {
+    font-size: 1em;
+    color: #666;
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+
+/* Enlace de Ver Proyecto */
+.pro-enlace {
+    font-size: 1em;
+    color: #3498db;
+    text-decoration: none;
+    font-weight: bold;
+    border: 1px solid #3498db;
+    padding: 8px 16px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.pro-enlace:hover {
+    background-color: #3498db;
+    color: #fff;
+}
+/* Aqui comienza blog*/
+
+/* Estilos generales */
+#blog {
+    padding: 40px;
+    background-color: #f2f2f2;
+}
+
+#blog h3 {
+    margin-top: 7rem;
+    margin-top: 3rem;
+    font-size: 7vmin;
+    text-align: center;
+    font-weight: bold;
+}
+
+/* Contenedor de publicaciones */
+.blog-posts {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Estilos para cada publicación individual */
+.blog-post {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    max-width: 350px;
+    width: 100%;
+    transition: transform 0.3s ease;
+}
+
+.blog-post:hover {
+    transform: translateY(-5px);
+}
+
+/* Imagen destacada de cada post */
+.blog-post img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+/* Contenido de cada publicación */
+.post-content {
+    padding: 20px;
+}
+
+.post-content h4 {
+    font-size: 20px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.post-content p {
+    font-size: 14px;
+    color: #666;
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+
+/* Botón de leer más */
+.read-more {
+    display: inline-block;
+    color: #5AB6EB;
+    font-weight: bold;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.read-more:hover {
+    color: #419CC1;
+}
+/* Aqui empieza contacto */
+#contacto h3{
+    margin-top: 7rem;
+    margin-top: 3rem;
+    font-size: 7vmin;
+    text-align: center;
+    font-weight: bold;
+}
+
+/* Estilos generales para la sección de contacto */
+#contacto {
+    padding: 20px;
+    text-align: center;
+    background-color: #f9f9f9;
+}
+
+
+/* Estilos para la "cajita" del formulario */
+#seccion-coment {
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    padding: 30px;
+    margin: 0 auto;
+}
+
+#seccion-coment h2 {
+    font-size: 24px;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+/* Estilos para el formulario */
+#comment-form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+/* Estilos para cada grupo de formulario */
+.form-group {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-group label {
+    font-size: 16px;
+    color: #333;
+    margin-bottom: 5px;
+}
+
+/* Estilo para los campos de entrada */
+#comment-form input[type="text"],
+#comment-form input[type="email"],
+#comment-form textarea {
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #fff;
+    resize: vertical;
+    transition: border-color 0.3s ease;
+}
+
+#comment-form input[type="text"]:focus,
+#comment-form input[type="email"]:focus,
+#comment-form textarea:focus {
+    border-color: #5AB6EB;
+    outline: none;
+}
+
+/* Estilo para el checkbox */
+.form-group.checkbox {
+    display: flex;
+    align-items: center;
+}
+
+.form-group.checkbox label {
+    margin-left: 5px;
+    font-size: 14px;
+    color: #666;
+}
+
+/* Estilo para el botón de enviar */
+#comment-form button[type="submit"] {
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #5AB6EB;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#comment-form button[type="submit"]:hover {
+    background-color: #419CC1;
+}
+
+/* Estilo para el ícono de flecha hacia arriba */
+.icon-arrow-up {
+    display: inline-block;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 24px;
+    color: #5AB6EB;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.icon-arrow-up:hover {
+    color: #419CC1;
+}
+
 /* Aplicar estilos al pie */
 
 .burbujas{
@@ -211,3 +530,21 @@ body{
     font-size: 1.5vw;
 }
 
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.section-container {
+    padding: 3rem 2rem;
+    text-align: center;
+    background-color: #f2f2f2;
+    margin-bottom: 1.5rem;
+}
+
+.section-container h2 {
+    font-size: 2.5rem;
+    color: #333;
+    margin-bottom: 2rem;
+}
